@@ -10,24 +10,24 @@
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 ## 💻 About Project
-I created <a href="https://laravel.com/docs/8.x/releases">Laravel 8</a> admin dashboard project from scratch. If you are a beginner and want to learn Laravel project from scratch, this is good sample project for you. Apart from that I used <a href="https://getbootstrap.com/">BootStrap 5 </a> for responsive view. I tried to cover below mentioned topic to of <a href="https://laravel.com/docs/8.x/releases">Laravel 8</a>:
+I created <a href="https://laravel.com/docs/8.x/releases">Laravel 8</a> admin dashboard project from scratch. If you are a beginner and want to learn Laravel projects from scratch, this is a good sample project for you. Apart from that I used <a href="https://getbootstrap.com/">BootStrap 5 </a> for a responsive view. I tried to cover below mentioned topic to of <a href="https://laravel.com/docs/8.x/releases">Laravel 8</a>:
 
-### 💡 As you know <a href="https://laravel.com/docs/8.x/releases">Laravel 8</a> have a php MVC framework so I tried to cover mvc structure with login and register user modules. You will learn about:
+### 💡 As you know <a href="https://laravel.com/docs/8.x/releases">Laravel 8</a> has a PHP MVC framework so I tried to cover MVC structure with login and register user modules. You will learn about:
 ▶ Laravel Routing with middleware and parameters
 
 ▶ Laravel page layout
 
-▶ Laravel sub view page and call them
+▶ Laravel sub-view page and call them
 
-▶ How to extend layout and and pass paramters to layout
+▶ How to extend the layout and pass parameters to the layout
 
 ▶ How to call view blades and pass data to view blade 
 
-▶ How to use php code in blade files
+▶ How to use PHP code in blade files
 
-▶ How to redirect to route with paramters
+▶ How to redirect to route with parameters
 
-▶ How to send the reponse message 
+▶ How to send the response message 
 
 ▶ How to set validations
 
@@ -39,31 +39,36 @@ I created <a href="https://laravel.com/docs/8.x/releases">Laravel 8</a> admin da
 
 
 
-# ⭐ How to clone and setup Laravel project from GitHub
+# ⭐ How to clone and set up Laravel project from GitHub
 
 ### ⪢ Step 1
-Firstly, You have to copy the Github repository URL:
+Firstly, You have to copy the GitHub repository URL:
 https://github.com/Kirandeep0036/laravel.git
 It's a public repo, you don't need any credentials to download the project
 screenshot(https://tinyurl.com/2d25da7o)
 
 ### ⪢ Step 2
-Next is, open the project into your local editior then open the .env file and put you databse details:
+Next, open the project in your local editor then open the .env file and put your database details:
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=
+
 DB_USERNAME=
+
 DB_PASSWORD=
 
 ### ⪢ Step 3
-Then open your project editior terminal and the run command npm <b>npm install</b> and wait to complete it.
+Then open your project editor terminal and the run command npm <b>npm install</b> and wait to complete it.
 
 ### ⪢ Step 4
-Once you have done with your my sql details the run <b>php artisan migrate</b> command in your terminal. Its will create users table into your database. Then run command <b>php artisan serve</b> to run the project. Laravel local server URL:
+Once you have done with your my sql details the run <b>php artisan migrate</b> command in your terminal. It will create a user table in your database. Then run command <b>php artisan serve</b> to run the project. Laravel local server URL:
 http://localhost:8000/
 
-<b>NOTE</b> You have to set role admin in database in users table that guest by default for each record. After that, Please use that this user to login into dashboard.
+<b>NOTE</b> You have to set role admin in the database in the users table that guest by default for each record. After that, Please use this user to login into the dashboard.
 
 # ⭐ Some other useful commands of Laravel:
 ✅ To clear the cache: <b>php artisan optimize</b>
